@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/backround.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm Ahzem! Undergraduate student in Information Technology at the Institute of Technology, University of Moratuwa 🎓. Proudly from Bandarawela, Sri Lanka 🇱🇰. Embracing the unique journey of IT and university life.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -53,11 +53,12 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "black",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          color: "white",
         }}
       >
         <h2>About Myself</h2>
@@ -70,6 +71,7 @@ const About = () => {
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
+            color: "white",
           }}
         >
           {skillsList.map((skill) => (

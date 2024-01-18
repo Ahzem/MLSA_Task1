@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/laptop.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "A Trendy & Modern E-Commerce Platform",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "FusionFeast, a trendy and modern e-commerce platform for a variety of delicious dishes and drinks! This platform allows users to explore a fusion of flavors and conveniently order their favorite items online.",
+    url: "https://github.com/Ahzem/FusionFeast.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Busify - Public Transport Service Tracking & Tickets Booking Application",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Busify is a Public Transport Service Tracking and Tickets Booking Application designed to streamline public transportation services in Sri Lanka.",
+    url: "https://github.com/Ahzem/Busify.git",
   },
   {
-    title: "My Resume Site",
+    title: "Building Better Bills - A Python Billing System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This project is currently under development and aims to provide a robust, user-friendly solution for managing bills in various business settings, such as supermarkets and retail stores",
+    url: "https://github.com/Ahzem/Billing-System.git",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Java Console Library Management System",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Library Management System, an interactive Java program to manage your library's book inventory! Whether you're a bookworm, a librarian, or a tech enthusiast, this system simplifies the process of handling books and user interactions.",
+    url: "https://github.com/Ahzem/Library-Management-System.git",
   },
 ];
 
